@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etiquetas semanticas y de formateo ed texto 2</title>
+</head>
+<body>
+  <h1>Hola mundo</h1>
+
+  <!-- Ciats cortas -->
+   <p>Como dijo un sabio "yo solos se que no se nada"</p>
+   <p>Como dijo un sabio <q>yo solo se que no se nada</q></p>
+  
+  <!-- Citas largas -->
+   <p>Como dijo un sabio</p>
+   <blockquote>
+     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto veniam magn, soloribus sunt consequatur nisi facilis. Consectetur, harum eos! Dolorum id odit vitae obcaecati at quidem"
+     -Sabio
+   </blockquote>
+
+  <!-- br es para hacer un salto de linea-->
+   <p>Esta es la primera linea <br> esta es la segunda linea</p>
+
+   <h2>Seccion 1</h2>
+   <p>Hola esta es la seccion 1</p>
+   <hr>
+   <h2>Seccion 2</h2>
+   <p>Hola esta es la seccion 2</p>
+
+  <!-- Visualizar codigo en una sola linea -->
+   <p>Cuando nosotros implementamos <code>print ("hola mundo")</code><br> en python la consola imprimira <code>hola mundo</code></p>
+
+  <!-- Visualizar codigo en varias lineas -->
+  <div style="background-color: aqua;">
+    <h3>Suma de dos numeros en python</h3>
+    <p>Este codigo imprime la suma de  numeros en python</p>
+    <pre>
+      #suma de 2 numeros
+      a = 2
+      b = 3
+      print("El resultado es:" a + b )
+    </pre>
+  </div>
+  <hr>
+
+  <!-- Para escribir caracteres especiales como: >< se utilizan las entidades HTML que permiten avisar al navegador a utilizar estos simbolos especiales, comienzan con & y cierran con ; como &lt; y &gt;-->
+   <h3>Hola mundo en HTML</h3>
+   <p>Este codigo muestra un hola mundo en HTML</p>
+   <pre>
+    &lt;body&gt;
+      &lt;h1&gt;Hola mundo&lt;/h1&gt;
+    &lt;/body&gt;
+   </pre>
+
+  <!-- Se puede representar la entrada del teclado mediante la etiqueta <kbd>-->
+  <p> Para copiar un texto seleccione con el mouse y haga <kbd><kbd>ctrl</kbd><kbd>+</kbd><kbd>c</kbd></kbd></p>
+</body>
+</html>
