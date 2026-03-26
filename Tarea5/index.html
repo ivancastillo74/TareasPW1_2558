@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas y formularios</title>
+    <meta name='author' content='Ivan Castillo'>
+</head>
+<body>
+    <h1>Listaas y formularios</h1>
+    <h2>Listas</h2>
+    <!--Listas no ordenadas-->
+    <ul>
+        <li>jabon</li>
+        <li>shampoo</li>
+        <li>leche</li>
+        <li>cereal</li>
+        <li>huevo</li>
+        <li>carne</li>
+    </ul>
+    <!-- Listas ordenadas-->
+    <ol type="I" start="10">
+        <li>primero</li>
+        <li>segundo</li>
+        <li>tercero</li>
+        <li>cuarto</li>
+        <li>quinto</li>
+    </ol>
+
+    <!-- Listas de definiciones-->
+     <dl>
+        <dt>HTML</dt>
+        <dd>Lenguaje de marcado de hipertexto</dd>
+        <dt>CSS</dt>
+        <dd>lenguaje de estilos de cascada</dd>
+        <dt>JS</dt>
+        <dd>Java Script</dd>
+     </dl>
+
+    <!--Listas anidadas-->
+    <h4>Desarollo web</h4>
+
+    <ul>FRONTEND
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+        </ol>
+    </ul>
+
+    <ul>BACKEND
+        <ol>
+            <li>NodeJs</li>
+            <li>MySql</li>
+            <li>Debian</li>
+        </ol>
+    </ul>
+
+    <hr>
+    <h2>Formularios en HTML</h2>
+    <form action="/inicio_sesion" method="post">
+        <label for="username">Nombre de usuario:</label>
+        <input type="text" id="username" name="username" placeholder="Introduce tu nombre">
+        <br>
+        <label for="password">Contrasena:</label>
+        <input type="password" id="password" name="password" placeholder="Introduce su contrasena">
+        <br>
+        <button type="submit">Inbiciar sesion</button>
+    </form>
+
+    <br>
+    <p>formulario con campo de netrada para varias lineas</p>
+    <form action="validacion.php" method="post">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" placeholder="Introuce tu nombre">
+        <br>
+        <label for="comment">Comentario</label>
+        <input name="comment" id="coment"   placeholder="Introduce tu comentario" rows="4" cols="40">
+        <br>
+        <button type="submit">Enviar formulario</button>
+    </form>
+</body>
+</html>
