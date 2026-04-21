@@ -1,0 +1,93 @@
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}
+
+#encabezado{
+    font-family: 'Pirata One', cursive;
+    color: white;
+    text-shadow: 0.5rem 0.5rem 0.4rem purple;
+    background-color: black;
+    /* Width y Height modificcan el tamaño de un elemento en bloque HTML    */
+    width: 95%;
+    /*
+    Relleno: es el espacio entre el contenido del elemento y su borde para definir sus propiedades se aplican en un sentido horario
+    (top, rith, botttom, left) padding: 10px 10px 10px 10px
+    */
+    /*
+    El borde es el limite de un elemento HTML
+    valores para border-style(solid, dotted, dashed, double, groove, ridge, inset outset, hidden, none)
+    */
+    padding: 10px ;
+    border-width: 30px;
+    border: 2px groove gold;
+    border-top-color:red ;
+    border-right-color: inherit ;
+    border-radius: 10%;
+    /*
+    Se uede utilizar para crear efectos de sombra alrededor del borde de un elemnto HTML se debe esecificar: desplazamineto-vertical desplazamiento-horizontal 
+    radio de desenfoque radio de propagacion de color
+    */
+    box-shadow: 5px 5px 5px 5px blue;
+    /*
+    Se utiliza para que ajustemos margenes y bordes se ajusten a la medida inicial del elemento HTML y no agreguen espacio extra a la declaracion inicial
+    */
+    font-size: 64px;
+    text-align: center;
+}
+
+
+#intro{
+    color: pink;
+    background-color: black;    
+    padding: 20px;
+    margin: 5%;
+    border: 10px ridge aqua;
+    text-align: center;
+    font-size: 20px;
+}
+
+.propiedades-texto{
+    color: pink;
+    background-color: black;    
+    padding: 20px;
+    margin: 5%;
+    border: 10px ridge aqua;
+    text-align: justify;
+    line-height: 2.5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.propiedades-fuentes{
+    text-align: justify;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    color: pink;
+    background-color: black;    
+    padding: 20px;
+    margin: 5%;
+    border: 10px ridge aqua;
+    text-align: justify;
+    line-height: 2.5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.propiedades-texto h2{
+    letter-spacing: 10px;
+    color: blueviolet;
+}
+
+.propiedades-fuentes h2{
+    letter-spacing: 10px;
+    color: blueviolet;
+}
+
+
+/* Agregar fuentes desde gogle fonts */
+
+
+
