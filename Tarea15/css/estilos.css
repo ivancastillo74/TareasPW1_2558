@@ -1,0 +1,73 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+header h1{
+    font-size: 4rem;
+}
+
+#catalogo{
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid purple;
+    flex-wrap: wrap;
+}
+
+.producto{
+    border: 3px solid red;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+    border-radius: 5%;
+}
+
+.producto img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.contenedor-comentarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 60rem;
+    overflow-y: auto;
+}
+
+#separacion{
+    font-size: 3rem;
+    border: 3px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.comentario{
+    display: flex;
+    border: 3px solid blue;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    width: 90%;
+    min-width: 400px;
+    font-size: 1.5rem;
+}
+
