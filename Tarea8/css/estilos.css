@@ -1,0 +1,75 @@
+.rgb{
+    background-color: rgb(245, 30, 236);
+}
+
+.rgb h, p{
+    color: rgb(245, 245, 245);
+}
+
+/*RGBA*/
+.rgba{
+    background-color: rgba(0, 0, 255,0.5);
+}
+
+.rgba h2, p{
+    background-color: rgba(256, 256, 28,0.5);
+}
+
+/*HEX*/
+
+.hex{
+    background-color: #c17575;
+}
+
+.hex h2, p{
+    color: #000000;
+}
+
+/*HSL*/
+
+.hsl{
+    background-color: hsl(2, 57%, 50%);
+    color: hsl(0, 0%, 0%);
+}
+
+.hsl h2{
+    color: hsl(2, 40%, 56%);
+}
+
+/*HSL*/
+
+.hsla{
+    background-color: hsl(2, 57%, 50%, 0.5);
+    color: hsl(0, 0%, 0%, 0.7);
+}
+
+.hsla h2{
+    color: hsl(2, 40%, 56%, 0.6);
+}
+
+
+/*COLORES MULTINAVEGADOR*/
+.lista_ordenada{background-color: aqua;}
+
+.black{color: black;}
+
+.white{color: white;}
+
+.salmon{color: salmon;}
+
+.verde{color: lime;}
+
+.blue{color: blue;}
+
+/*BORDES*/
+.borde{
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 5px;
+}
+
+
+/*DEGRADADOS*/
+
+.degradado_lineal{background-image: linear-gradient(to top, red, blue);}
+.degradado_radial{background-image: radial-gradient(ellipse, lime, purple);}
